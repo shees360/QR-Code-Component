@@ -26,7 +26,7 @@ Mobile Design
 # Links
 
 - Repository Url: [QR-Code Component](https://github.com/shees360/QR-Code-Component.git)
-- Live Url - [Live Url](#https://shees360.github.io/QR-Code-Component/)
+- Live Url - [Live Site](#https://shees360.github.io/QR-Code-Component/)
 
 # Built with
 
@@ -38,5 +38,6 @@ Mobile Design
 - Name: shees
 
 - Frontend-Mentor: [@shees360](#)
+
 
 
