@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <title>QR Code Component</title>
+    <style>
+        @font-face {
+            font-family: 'Outfit';
+            src: url(assets/static/Outfit-SemiBold.ttf);
+        }
+        body{
+            background-color: rgb(214, 226, 240) ;
+            font-family: 'Outfit', sans-serif;
+            padding-left: 550px;
+            padding-right: 550px;
+            padding-top: 100px;
+            text-align: center;
+        }
+        .nest{
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2)
+        }
+        img{
+            width: 220px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        h2{
+            color: rgb(31, 50, 81);
+            font-weight: 700;
+            font-size: 20px;
+            padding-left: 27px;
+            padding-right: 27px;
+            font-size: 16px;
+        }
+        p{
+            color: rgb(104, 119, 141);
+            font-weight: 200;
+            padding-left: 27px;
+            padding-right: 27px;
+            padding-bottom: 35px;
+            font-size: 11px;
+        }
+        @media screen and (min-width: 320px) and (max-width: 768px){
+            body{
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 60px;
+            }
+        }
+        @media screen and (min-width : 769px) and (max-width: 1024px) {
+            body{
+                padding-left: 300px;
+                padding-right: 300px;
+                padding-top: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nest">
+        <img src="assets/image-qr-code.png" alt="">
+        <h2>Improve your front-end skills by building projects</h2>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+</body>
+</html>
